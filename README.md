@@ -7,23 +7,27 @@ one Shelly device to receive via LoRa and publish to home assistenat mqtt
 one Shelly device to send messages via Lora when a BTHome door window sensor's state changes.
 
 ## Requirements
--2x Shelly 1 Gen3  updated to firmware 1.71 or greater
--2x Shelly Lora Add-on updated to firmware 2.1.1 ore greater
--1 x Shelly BTHome Blu Door Window sensor
-- A **unique AES key** is required for encrypting messages  
+2x Shelly 1 Gen3  updated to firmware 1.71 or greater
+
+2x Shelly Lora Add-on updated to firmware 2.1.1 ore greater
+
+1 x Shelly BTHome Blu Door Window sensor
+
+A **unique AES key** is required for encrypting messages  
   - The provided key is just an example  
   - You can generate your own [here](https://generate-random.org/encryption-key-generator)
 
 ## Installation
 
 1. Wire up your Shelly devices 
-2. Power on the device
+2. Power on the devices
 3. Configure wifi and update firmware
-4. Power off the device
+4. Power off the devices
 5. Attach the LoRa add-ons to the Shelly device
-6. Power on the device  and update firmware
+6. Power on the devices
 7. In the embedded web interface, open the **Add-on** submenu and enable the **LoRa add-on**
-8. Check the Lora setting to fit your country
+8. update Lora firmware
+9. Check the Lora setting to fit your country
 
 ---
 
